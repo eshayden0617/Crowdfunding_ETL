@@ -1,4 +1,9 @@
-﻿CREATE TABLE "Category" (
+﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/danQMS
+-- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+
+
+CREATE TABLE "Category" (
     "category_id" VARCHAR   NOT NULL,
     "category" VARCHAR   NOT NULL,
     CONSTRAINT "pk_Category" PRIMARY KEY (
